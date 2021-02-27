@@ -360,7 +360,7 @@ def get_small_image(_id):
         return im
 
 def display_recomm(ls,id_ls):
-   if st.button(ls[0],key = 'c1'):
+    if st.button(ls[0],key = 'c1'):
             state.new_ = True
             state.new_title = ls[0]
             state.id = int(state.data[state.data['title'] == ls[0]]['id'])
