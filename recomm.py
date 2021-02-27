@@ -360,18 +360,20 @@ def get_small_image(_id):
         return im
 
 def display_recomm(ls,id_ls):
-    if st.button(ls[0],key = 'c1'):
+   if st.button(ls[0],key = 'c1'):
             state.new_ = True
             state.new_title = ls[0]
             state.id = int(state.data[state.data['title'] == ls[0]]['id'])
             rerun()
     im1 = get_small_image(id_ls[0])
-    
-    if im1 != -1:
-        try :
-            st.image(im1, width=None)
-        except:
-            pass
+    try:
+        if im1 != -1:
+            try :
+                st.image(im1, width=None)
+            except:
+                st.markdown("#### Sorry Poster not available ")
+    except:
+        st.markdown("#### Sorry Poster not available ")
         
     if st.button(ls[1],key = 'c2'):
         state.new_ = True
@@ -379,22 +381,28 @@ def display_recomm(ls,id_ls):
         state.id = int(state.data[state.data['title'] == ls[1]]['id'])
         rerun()
     im2 = get_small_image(id_ls[1])
-    if im2 != -1:
-        try :
-            st.image(im2, width=None)
-        except:
-            pass
+    try:
+        if im2 != -1:
+            try :
+                st.image(im2, width=None)
+            except:
+                st.markdown("#### Sorry Poster not available ")
+    except:
+        st.markdown("#### Sorry Poster not available ")
     if st.button(ls[2],key = 'c3'):
         state.new_ = True
         state.new_title = ls[2]
         state.id = int(state.data[state.data['title'] == ls[2]]['id'])
         rerun()
     im3 = get_small_image(id_ls[2])
-    if im3 != -1:
-        try :
-            st.image(im3, width=None)
-        except:
-            pass
+    try :
+        if im3 != -1:
+            try :
+                st.image(im3, width=None)
+            except:
+                st.markdown("#### Sorry Poster not available ")
+    except:
+        st.markdown("#### Sorry Poster not available ")
             
     if st.button(ls[3],key = 'c4'):
         state.new_ = True
@@ -402,11 +410,14 @@ def display_recomm(ls,id_ls):
         state.id = int(state.data[state.data['title'] == ls[3]]['id'])
         rerun()
     im4 = get_small_image(id_ls[3])
-    if im4 != -1:
-        try :
-            st.image(im4, width=None)
-        except:
-            pass
+    try:
+        if im4 != -1:
+            try :
+                st.image(im4, width=None)
+            except:
+                st.markdown("#### Sorry Poster not available ")
+    except:
+        st.markdown("#### Sorry Poster not available ")
             
     if st.button(ls[4],key = 'c5'):
         state.new_ = True
@@ -414,11 +425,15 @@ def display_recomm(ls,id_ls):
         state.id = int(state.data[state.data['title'] == ls[4]]['id'])
         rerun()
     im5 = get_small_image(id_ls[4])
-    if im5 != -1:
-        try :
-            st.image(im5, width=None)
-        except:
-            pass
+    try:
+        if im5 != -1:
+            try :
+                st.image(im5, width=None)
+            except:
+                st.markdown("#### Sorry Poster not available ")
+    except:
+        st.markdown("#### Sorry Poster not available ")
+        
 def rerun():
     raise st.script_runner.RerunException(st.script_request_queue.RerunData(None))
     
