@@ -1,6 +1,6 @@
-pandas>=1.1.2
-scikit-learn>=0.21
-streamlit>=0.76
-gensim>=3.8.2
-PIL>=8.0
+pandas
+scikit-learn
+streamlit
+gensim
+Pillow
 requests
