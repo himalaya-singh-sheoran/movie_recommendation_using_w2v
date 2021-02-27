@@ -1,6 +1,6 @@
 pandas
 scikit-learn
-streamlit
+streamlit>=0.77
 gensim
 Pillow
 requests
