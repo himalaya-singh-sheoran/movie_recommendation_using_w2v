@@ -4,3 +4,4 @@ streamlit>=0.77
 gensim
 Pillow
 requests
+tmdbv3api
