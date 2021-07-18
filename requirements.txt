@@ -5,3 +5,4 @@ streamlit
 Pillow
 requests
 tmdbv3api
+pickle-mixin
