@@ -20,9 +20,9 @@ About the contents of this repo:
 |File name | Description |
 |:--------:|:-----------:|
 |KNNC.pkl| model|
-|embedsData.txt|File with movie embedds|
-|id2title.pkl|Dictonary of movie id and titles|
-|id2val.pkl|Movie ids and index|
+|embedsData.txt|File of movie embeddings|
+|id2title.pkl|Dictonary of movie id and title|
+|id2val.pkl|Dictonary of movie id and index|
 |val2id.pkl|opposite of id2val|
 |title2id.pkl|opposite of id2title|
 |new_final.csv|movies data|
