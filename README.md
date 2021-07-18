@@ -18,7 +18,7 @@ streamlit run recomm.py
 ```
 About the contents of this repo:
 |File name | Description |
-|------------------------|
+|:--------:|:-----------:|
 |KNNC.pkl| model|
 
 
