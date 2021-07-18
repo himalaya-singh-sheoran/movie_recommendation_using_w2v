@@ -11,7 +11,7 @@ from PIL import Image
 import requests
 import time
 
-import pickle
+import pickle5 as pickle
 import sqlite3
 
 import streamlit.report_thread as ReportThread
