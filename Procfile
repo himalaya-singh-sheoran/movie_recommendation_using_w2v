@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run recomm.py --server.enableXsrfProtection=false
+web: sh setup.sh && streamlit run recomm.py
