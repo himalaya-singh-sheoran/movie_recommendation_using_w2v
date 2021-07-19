@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit.hashing import _CodeHasher
 from streamlit.report_thread import get_report_ctx
 from streamlit.server.server import Server
-Server.enableXsrfProtection=true
+Server.enableXsrfProtection=False
 
 from ast import literal_eval
 import pandas as pd 
