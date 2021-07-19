@@ -5,6 +5,8 @@ I've made this using app using [streamlit](https://streamlit.io/). In short it i
 I have used the average word2vec embeddings of the words in movie content as the vector for the movie. Learn more about word2vec embeddings [here](https://www.youtube.com/watch?v=LSS_bos_TPI).
 Then I trained a nearest neighbours (metric as cosine) model to get movie recommendations.Learn more about knn [here](https://www.youtube.com/watch?v=HVXime0nQeI).
 Learn more about cosine similarity [here](https://www.youtube.com/watch?v=ieMjGVYw9ag).
+Working application is available [here](https://share.streamlit.io/himalaya-singh-sheoran/movie_recommendation_using_w2v/new_1/recomm.py)
+NOTE : To store the user's details host a database online and connect that to streamlit learn more [here](https://docs.streamlit.io/en/latest/tutorial/databases.html)
 
 To use the app in local runtime. Donwload all the files.
 
